@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="144.5mm"
+   height="144.5mm"
+   version="1.1"
+   viewBox="0 0 512.01017 512"
+   xmlnsCc="http://creativecommons.org/ns#"
+   xmlnsDc="http://purl.org/dc/elements/1.1/"
+   xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   id="svg42"
+   sodipodidocname="css3.svg"
+   inkscapeversion="1.2.2 (b0a8486541, 2022-12-01, custom)"
+   xmlnsinkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlnssodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlnssvg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs46" />
+  <sodipodinamedview
+     id="namedview44"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscapeshowpageshadow="2"
+     inkscapepageopacity="0.0"
+     inkscapepagecheckerboard="0"
+     inkscapedeskcolor="#d1d1d1"
+     inkscapedocument-units="mm"
+     showgrid="false"
+     inkscapezoom="1.3357625"
+     inkscapecx="206.24925"
+     inkscapecy="258.27945"
+     inkscapewindow-width="1679"
+     inkscapewindow-height="991"
+     inkscapewindow-x="26"
+     inkscapewindow-y="23"
+     inkscapewindow-maximized="0"
+     inkscapecurrent-layer="svg42" />
+  <metadata
+     id="metadata18">
+    <rdfRDF>
+      <ccWork
+         rdfAbout="">
+        <dcFormat>image/svg+xml</dcFormat>
+        <dcType
+           rdfResource="http://purl.org/dc/dcmitype/StillImage" />
+        <dcTitle />
+      </ccWork>
+    </rdfRDF>
+  </metadata>
+  <g
+     transform="translate(-118.99641,-276.36)"
+     id="g40">
+    <g
+       transform="translate(119,276.36)"
+       id="g38">
+      <polygon
+         points="437.37,100.62 404.32,470.82 255.78,512 107.64,470.88 74.633,100.62 "
+         fill="#264de4"
+         id="polygon20" />
+      <polygon
+         points="256,130.89 256,480.52 376.03,447.25 404.27,130.89 "
+         fill="#2965f1"
+         id="polygon22" />
+      <polygon
+         points="256,313.63 256,268.22 150.31,268.22 154.38,313.63 "
+         fill="#ebebeb"
+         id="polygon24" />
+      <polygon
+         points="256,176.3 255.84,176.3 142.13,176.3 146.26,221.72 256,221.72 "
+         fill="#ebebeb"
+         id="polygon26" />
+      <polygon
+         points="205.23,372.55 201.99,336.33 177.42,336.33 156.41,336.33 162.77,407.63 255.79,433.46 256,433.4 256,386.15 255.8,386.21 "
+         fill="#ebebeb"
+         id="polygon28" />
+      <path
+         d="m 160,0 h 55 v 23 h -32 v 23 h 32 v 23 h -55 z"
+         id="path30" />
+      <path
+         d="m 226,0 h 55 v 20 h -32 v 4 h 32 V 70 H 226 V 49 h 32 v -4 h -32 z"
+         id="path32" />
+      <path
+         d="m 292,0 h 55 v 20 h -32 v 4 h 32 V 70 H 292 V 49 h 32 v -4 h -32 z"
+         id="path34" />
+      <polygon
+         points="311.76,313.63 306.49,372.52 255.84,386.19 255.84,433.44 348.94,407.63 349.62,399.96 360.29,280.41 361.4,268.22 369.6,176.3 255.84,176.3 255.84,221.72 319.83,221.72 315.7,268.22 255.84,268.22 255.84,313.63 "
+         fill="#ffffff"
+         id="polygon36" />
+    </g>
+  </g>
+</svg>

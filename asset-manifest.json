@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.75e40d49.css",
+    "main.js": "/my-portfolio/static/js/main.053de2f6.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/covid-webiste.png": "/my-portfolio/static/media/covid-webiste.4c8a2c64568136593031.png",
+    "static/media/ux-design-responsive.png": "/my-portfolio/static/media/ux-design-responsive.7c01e8224d35461cc192.png",
+    "static/media/ux-design-mobile.png": "/my-portfolio/static/media/ux-design-mobile.c55aad0cbccd9fe245d1.png",
+    "static/media/undraw_programming_re_kg9v.svg": "/my-portfolio/static/media/undraw_programming_re_kg9v.26092ed763112a34faf39e4b6f60ffe6.svg",
+    "static/media/pig-dice-game.png": "/my-portfolio/static/media/pig-dice-game.ec386f6444ed9c01f19f.png",
+    "static/media/task-list.png": "/my-portfolio/static/media/task-list.4497597a42ba02d37860.png",
+    "static/media/react.svg": "/my-portfolio/static/media/react.18f8e1511d87f8948d7de7d637b8b523.svg",
+    "static/media/wordpress.svg": "/my-portfolio/static/media/wordpress.dd73b6c37ecf6c56f0352b5e021bc435.svg",
+    "static/media/css3.svg": "/my-portfolio/static/media/css3.f1c14e8ffb31b4e3e7fe06d0e45077f0.svg",
+    "static/media/figma_logo.svg": "/my-portfolio/static/media/figma_logo.2bf482e5fb0de1033b4f317d11a48e18.svg",
+    "index.html": "/my-portfolio/index.html",
+    "static/media/javascript.svg": "/my-portfolio/static/media/javascript.acc4642f682cd93a4c20a8a02c0cfa21.svg",
+    "static/media/html5.svg": "/my-portfolio/static/media/html5.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
+    "main.75e40d49.css.map": "/my-portfolio/static/css/main.75e40d49.css.map",
+    "main.053de2f6.js.map": "/my-portfolio/static/js/main.053de2f6.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75e40d49.css",
+    "static/js/main.053de2f6.js"
+  ]
+}

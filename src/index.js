@@ -1,23 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import Home from './Home';
 import Resume from './pages/resume';
 import Projects from './pages/projects';
 import reportWebVitals from './reportWebVitals';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />
   },
   {
-    path: "resume/",
+    path: "resume",
     element: <Resume />
   },
   {
-    path: "projects/",
+    path: "projects",
     element: <Projects />
   }
 ])

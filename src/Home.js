@@ -27,9 +27,14 @@ function Home() {
                   <p>
                       Passioné d'informatique depuis mes 13 ans et de nature curieuse, je cherche toujours à renforcer mes connaissances et en à acquérir de nouvelles. 
                   </p>
-                  <Link to="resume" className="my-5 align-self-center">
+                  <Link to="/resume" className="my-5 align-self-center">
                       <Button className="portfolio-btn fs-3">
                           Voir mon CV
+                      </Button>
+                  </Link>
+                  <Link to="/resume" className="align-self-center">
+                      <Button className="portfolio-btn fs-3">
+                          Voir mes projets réalisés
                       </Button>
                   </Link>
               </div>

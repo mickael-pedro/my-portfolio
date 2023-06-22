@@ -13,8 +13,8 @@ function Education() {
           <div className='d-flex flex-column flex-md-row'>
             <div className='w-md-50 mb-4 mb-md-0 me-md-4'>
               <h3 className='mb-3'>Diplômes et formations</h3>
-              <ResumeItem date="2022 - aujourd'hui" title="Bachelor Développeur d'application">
-                <p><i>Studi</i></p>
+              <ResumeItem date="2022 - 2023" title="Bachelor Développeur d'application">
+                <p><i>Studi, école en ligne</i></p>
               </ResumeItem>
               <ResumeItem date="2018 - 2020" title="BTS Services Informatiques aux Organisations - option Réseau">
                 <p><i>Lycée René Descartes, 77420 Champs-sur-Marne</i></p>
@@ -25,6 +25,14 @@ function Education() {
             </div>
             <div className='w-md-50 mb-4 mb-md-0'>
               <h3  className='mb-3'>Expériences professionnelles</h3>
+              <ResumeItem date="Mai 2022 - Juillet 2022" title="Stage administrateur web">
+                <p><i>BGoods, 77500 Chelles</i></p>
+                <ul>
+                  <li>Rénovation complète site web</li>
+                  <li>Migration du site vers un CMS moderne</li>
+                  <li>Transfert de nom de domaine</li>
+                </ul>
+              </ResumeItem>
               <ResumeItem date="Septembre 2020 - Avril 2021" title="Technicien support technique en alternance">
                 <p><i>Direction Générale des Finances Publiques, 77458 Marne-la-Vallée</i></p>
                 <ul>

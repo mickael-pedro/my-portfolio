@@ -5,7 +5,7 @@ import GitHubMark from '../assets/png/GitHub-Mark.png'
 export const ProjectCard = (props) => {
     return (
         <Card className="project-card mb-2">
-            <Card.Img variant="top" src={props.image}/>
+            <a href={props.link}><Card.Img variant="top" src={props.image}/></a>
             <Card.Body className="d-flex flex-column">
                 <Card.Title><a href={props.link} target="_blank" className="project-link" rel="noreferrer">{props.title}</a></Card.Title>
                 <Card.Text className="d-flex flex-column h-100 mb-1">

@@ -67,7 +67,7 @@ function Projects() {
                         </ProjectCard>
                         <ProjectCard title="Maquette HD interactive pour une application mobile de l'URSSAF" 
                             image={UXDesignMobileImg}
-                            link="https://www.figma.com/file/oJSMEe10mdPeRpq8dMmGgg/Prototype---Appli-Mobile-URSSAF---Micka%C3%ABl-De-Jesus-Pedro?node-id=0%3A1&t=824u93C7QrsNvfwE-1"
+                            link="https://www.figma.com/proto/oJSMEe10mdPeRpq8dMmGgg/Prototype---Appli-Mobile-URSSAF---Micka%C3%ABl-De-Jesus-Pedro?type=design&node-id=1-426&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A426&mode=design"
                         >
                             <p>Réalisée pour un examen sur l'UX Design pour mon Bachelor, cette maquette permet de tester le potentiel parcours utilisateur d'une
                             application mobile. (Non-affilié à l'URSSAF)</p>

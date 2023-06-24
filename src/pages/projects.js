@@ -55,10 +55,10 @@ function Projects() {
                         </ProjectCard>
                         <ProjectCard title="Site fictif - Actu COVID19" 
                             image={CovidWebsiteImg} 
-                            link="https://mickael-pedro-pro.go.yj.fr/"
+                            link="https://www.figma.com/file/N8v3u6Pd2jh6qzcD69WzPO/Maquette-ActuCovid19---Mickael-De-Jesus-Pedro?type=design&mode=design&t=GU3iowL35slaClyc-1"
                         >
                             <p>Site ficitf d'actualité sur le COVID-19 réalisé dans le contexte dans d'un examen sur la conception d'une solution digitale où le projet devait être livrer en dix jours.<br/>
-                            Le projet demandait un espace d'administration simple à utiliser, Wordpress a donc été mon premier choix.
+                            Le projet demandait un espace d'administration simple à utiliser, Wordpress a donc été mon premier choix. (Maquettes uniquement disponibles)
                             </p>
                             <div className="made-with-wrapper mt-auto">
                                 <p className="mb-2"><b>Réalisé avec</b></p>

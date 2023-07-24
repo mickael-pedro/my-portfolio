@@ -21,6 +21,20 @@ function Projects() {
                 <Container>
                     <h3>Projets réalisés</h3>
                     <div className="d-inline-flex gap-3 flex-column flex-lg-row flex-wrap">
+                        <ProjectCard title="Mon portfolio" 
+                            image={images["this-portfolio.png"]}
+                            link="https://mickael-pedro.github.io/my-portfolio/"
+                            srclink="https://github.com/mickael-pedro/my-portfolio"
+                        >
+                            <p>Ce portfolio en lui-même à été réalisé avec React et implémente un design responsive. De plus, il est hébergé gratuitement grâce à <a href="https://pages.github.com/">Github Pages</a>.</p>
+                            <div className="made-with-wrapper mt-auto">
+                                <p className="mb-2"><b>Réalisé avec</b></p>
+                                <img src={logos["react.svg"]} alt="React" title="React"/>
+                                <img src={logos["html5.svg"]} alt="HTML5" title="HTML5"/>
+                                <img src={logos["css3.svg"]} alt="CSS3" title="CSS3"/>
+                                <img src={logos["javascript.svg"]} alt="Javascript" title="Javascript"/>
+                            </div>
+                        </ProjectCard>
                         <ProjectCard title="Application de gestion de listes" 
                             image={images["task-list.png"]}
                             link="https://mickael-pedro.github.io/gestion-de-liste/"

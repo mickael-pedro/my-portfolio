@@ -22,7 +22,7 @@ function Projects() {
             <Fade className='flex-grow-1'>
                 <Container>
                     <h3>Projets réalisés</h3>
-                    <div className="d-inline-flex gap-3 flex-column flex-md-row flex-wrap">
+                    <div className="d-inline-flex gap-3 flex-column flex-lg-row flex-wrap">
                         <ProjectCard title="Application de gestion de listes" 
                             image={TaskListImg}
                             link="https://mickael-pedro.github.io/gestion-de-liste/"

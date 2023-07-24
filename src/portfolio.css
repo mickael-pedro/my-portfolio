@@ -83,6 +83,12 @@ body{
     height: 45px;
 }
 
+@media (min-width: 993px) {
+    .project-card{
+        width: 32%;
+    }
+}
+
 @media (min-width: 769px) {
     .greeting-text{
         width: 60%;
@@ -91,8 +97,5 @@ body{
         width: 40%;
         float: right;
         margin-bottom: 0px !important;
-    }
-    .project-card{
-        width: 32%;
     }
 }

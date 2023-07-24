@@ -2,12 +2,6 @@ import { Container } from "react-bootstrap";
 import { Fade } from 'react-awesome-reveal';
 import { NavBar } from "../components/NavBar";
 import { ProjectCard } from "../components/ProjectCard";
-import JSLogo from "../assets/svg/javascript.svg";
-import HTMLLogo from "../assets/svg/html5.svg";
-import CSSLogo from "../assets/svg/css3.svg";
-import ReactLogo from "../assets/svg/react.svg";
-import FigmaLogo from "../assets/svg/figma_logo.svg";
-import WordpressLogo from "../assets/svg/wordpress.svg";
 import { Footer } from "../components/Footer";
 
 function importAll(r) {
@@ -17,6 +11,7 @@ function importAll(r) {
 }
 
 const images = importAll(require.context('../assets/project-images', false, /\.(png|jpe?g|svg)$/));
+const logos = importAll(require.context('../assets/svg', false, /\.svg$/));
 
 function Projects() {
     return (
@@ -35,10 +30,10 @@ function Projects() {
                             contenant des tâches sur lesquelles on peut faire de même.</p>
                             <div className="made-with-wrapper mt-auto">
                                 <p className="mb-2"><b>Réalisé avec</b></p>
-                                <img src={ReactLogo} alt="React" title="React"/>
-                                <img src={HTMLLogo} alt="HTML5" title="HTML5"/>
-                                <img src={CSSLogo} alt="CSS3" title="CSS3"/>
-                                <img src={JSLogo} alt="Javascript" title="Javascript"/>
+                                <img src={logos["react.svg"]} alt="React" title="React"/>
+                                <img src={logos["html5.svg"]} alt="HTML5" title="HTML5"/>
+                                <img src={logos["css3.svg"]} alt="CSS3" title="CSS3"/>
+                                <img src={logos["javascript.svg"]} alt="Javascript" title="Javascript"/>
                             </div>
                         </ProjectCard>
                         <ProjectCard title="Jeu de dés Pig" 
@@ -51,9 +46,9 @@ function Projects() {
                             </p>
                             <div className="made-with-wrapper mt-auto">
                                 <p className="mb-2"><b>Réalisé avec</b></p>
-                                <img src={HTMLLogo} alt="HTML5" title="HTML5"/>
-                                <img src={CSSLogo} alt="CSS3" title="CSS3"/>
-                                <img src={JSLogo} alt="Javascript" title="Javascript"/>
+                                <img src={logos["html5.svg"]} alt="HTML5" title="HTML5"/>
+                                <img src={logos["css3.svg"]} alt="CSS3" title="CSS3"/>
+                                <img src={logos["javascript.svg"]} alt="Javascript" title="Javascript"/>
                             </div>
                         </ProjectCard>
                         <ProjectCard title="Moteur de recherche Pixabay" 
@@ -64,10 +59,10 @@ function Projects() {
                             <p>Moteur de recherche d'images basique utilisant l'API de Pixabay. Le projet a été réalisé rapidement d'où son interface et sa fonctionnalité simpliste.</p>
                             <div className="made-with-wrapper mt-auto">
                                 <p className="mb-2"><b>Réalisé avec</b></p>
-                                <img src={ReactLogo} alt="React" title="React"/>
-                                <img src={HTMLLogo} alt="HTML5" title="HTML5"/>
-                                <img src={CSSLogo} alt="CSS3" title="CSS3"/>
-                                <img src={JSLogo} alt="Javascript" title="Javascript"/>
+                                <img src={logos["react.svg"]} alt="React" title="React"/>
+                                <img src={logos["html5.svg"]} alt="HTML5" title="HTML5"/>
+                                <img src={logos["css3.svg"]} alt="CSS3" title="CSS3"/>
+                                <img src={logos["javascript.svg"]} alt="Javascript" title="Javascript"/>
                             </div>
                         </ProjectCard>
                         <ProjectCard title="Rénovation site internet d'un auto-entrepreneur" 
@@ -91,7 +86,7 @@ function Projects() {
                             </p>
                             <div className="made-with-wrapper mt-auto">
                                 <p className="mb-2"><b>Réalisé avec</b></p>
-                                <img src={WordpressLogo} alt="Wordpress" title="Wordpress"/>
+                                <img src={logos["wordpress.svg"]} alt="Wordpress" title="Wordpress"/>
                             </div>
                         </ProjectCard>
                         <ProjectCard title="Maquette HD interactive pour une application mobile de l'URSSAF" 
@@ -102,7 +97,7 @@ function Projects() {
                             application mobile. (Non-affilié à l'URSSAF)</p>
                             <div className="made-with-wrapper mt-auto">
                                 <p className="mb-2"><b>Réalisé avec</b></p>
-                                <img src={FigmaLogo} alt="Figma" title="Figma"/>
+                                <img src={logos["figma_logo.svg"]} alt="Figma" title="Figma"/>
                             </div>
                         </ProjectCard>
                         <ProjectCard title="Maquette HD d'un site web au design responsive" 
@@ -113,7 +108,7 @@ function Projects() {
                             Réalisée pour un entrainement sur l'UX Design. (L'application Clipboard présenté n'exsite pas réellement)</p>
                             <div className="made-with-wrapper mt-auto">
                                 <p className="mb-2"><b>Réalisé avec</b></p>
-                                <img src={FigmaLogo} alt="Figma" title="Figma"/>
+                                <img src={logos["figma_logo.svg"]} alt="Figma" title="Figma"/>
                             </div>
                         </ProjectCard>
                     </div>

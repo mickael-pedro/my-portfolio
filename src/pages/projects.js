@@ -2,11 +2,6 @@ import { Container } from "react-bootstrap";
 import { Fade } from 'react-awesome-reveal';
 import { NavBar } from "../components/NavBar";
 import { ProjectCard } from "../components/ProjectCard";
-import TaskListImg from "../assets/project-images/task-list.png";
-import UXDesignMobileImg from "../assets/project-images/ux-design-mobile.png";
-import UXDesignResponsiveImg from "../assets/project-images/ux-design-responsive.png";
-import PigDiceGameImg from "../assets/project-images/pig-dice-game.png";
-import CovidWebsiteImg from "../assets/project-images/covid-webiste.png";
 import JSLogo from "../assets/svg/javascript.svg";
 import HTMLLogo from "../assets/svg/html5.svg";
 import CSSLogo from "../assets/svg/css3.svg";
@@ -14,6 +9,14 @@ import ReactLogo from "../assets/svg/react.svg";
 import FigmaLogo from "../assets/svg/figma_logo.svg";
 import WordpressLogo from "../assets/svg/wordpress.svg";
 import { Footer } from "../components/Footer";
+
+function importAll(r) {
+    let images = {};
+     r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images
+}
+
+const images = importAll(require.context('../assets/project-images', false, /\.(png|jpe?g|svg)$/));
 
 function Projects() {
     return (
@@ -24,7 +27,7 @@ function Projects() {
                     <h3>Projets réalisés</h3>
                     <div className="d-inline-flex gap-3 flex-column flex-lg-row flex-wrap">
                         <ProjectCard title="Application de gestion de listes" 
-                            image={TaskListImg}
+                            image={images["task-list.png"]}
                             link="https://mickael-pedro.github.io/gestion-de-liste/"
                             srclink="https://github.com/mickael-pedro/gestion-de-liste"
                         >
@@ -39,7 +42,7 @@ function Projects() {
                             </div>
                         </ProjectCard>
                         <ProjectCard title="Jeu de dés Pig" 
-                            image={PigDiceGameImg} 
+                            image={images["pig-dice-game.png"]} 
                             link="https://mickael-pedro.github.io/dice-game/"
                             srclink="https://github.com/mickael-pedro/dice-game"
                         >
@@ -53,8 +56,34 @@ function Projects() {
                                 <img src={JSLogo} alt="Javascript" title="Javascript"/>
                             </div>
                         </ProjectCard>
+                        <ProjectCard title="Moteur de recherche Pixabay" 
+                            image={images["pixabay-search.png"]} 
+                            link="https://mickael-pedro.github.io/pixabay-search-engine/"
+                            srclink="https://github.com/mickael-pedro/pixabay-search-engine"
+                        >
+                            <p>Moteur de recherche d'images basique utilisant l'API de Pixabay. Le projet a été réalisé rapidement d'où son interface et sa fonctionnalité simpliste.</p>
+                            <div className="made-with-wrapper mt-auto">
+                                <p className="mb-2"><b>Réalisé avec</b></p>
+                                <img src={ReactLogo} alt="React" title="React"/>
+                                <img src={HTMLLogo} alt="HTML5" title="HTML5"/>
+                                <img src={CSSLogo} alt="CSS3" title="CSS3"/>
+                                <img src={JSLogo} alt="Javascript" title="Javascript"/>
+                            </div>
+                        </ProjectCard>
+                        <ProjectCard title="Rénovation site internet d'un auto-entrepreneur" 
+                            image={images["bgoods.png"]}
+                            link="https://bgoods.fr/"
+                        >
+                            <p>Lors de mon stage de Bachelor développeur d'application, j'ai eu l'occasion de rénover le site web d'un installateur de climatisation auto-entrepeneur.<br/>
+                            Je suis parti d'un des modèles proposé par le CMS "Simply Shop" que j'ai ensuite personnalisé à l'image et aux demandes de l'entreprise.
+                            </p>
+                            <div className="made-with-wrapper mt-auto">
+                                <p className="mb-2"><b>Réalisé avec</b></p>
+                                Simply Shop
+                            </div>
+                        </ProjectCard>
                         <ProjectCard title="Site fictif - Actu COVID19" 
-                            image={CovidWebsiteImg} 
+                            image={images["covid-webiste.png"]}
                             link="https://www.figma.com/file/N8v3u6Pd2jh6qzcD69WzPO/Maquette-ActuCovid19---Mickael-De-Jesus-Pedro?type=design&mode=design&t=GU3iowL35slaClyc-1"
                         >
                             <p>Site ficitf d'actualité sur le COVID-19 réalisé dans le contexte dans d'un examen sur la conception d'une solution digitale où le projet devait être livrer en dix jours.<br/>
@@ -66,7 +95,7 @@ function Projects() {
                             </div>
                         </ProjectCard>
                         <ProjectCard title="Maquette HD interactive pour une application mobile de l'URSSAF" 
-                            image={UXDesignMobileImg}
+                            image={images["ux-design-mobile.png"]}
                             link="https://www.figma.com/proto/oJSMEe10mdPeRpq8dMmGgg/Prototype---Appli-Mobile-URSSAF---Micka%C3%ABl-De-Jesus-Pedro?type=design&node-id=1-426&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A426&mode=design"
                         >
                             <p>Réalisée pour un examen sur l'UX Design pour mon Bachelor, cette maquette permet de tester le potentiel parcours utilisateur d'une
@@ -77,7 +106,7 @@ function Projects() {
                             </div>
                         </ProjectCard>
                         <ProjectCard title="Maquette HD d'un site web au design responsive" 
-                            image={UXDesignResponsiveImg} 
+                            image={images["ux-design-responsive.png"]} 
                             link="https://www.figma.com/file/fmCFZ28tbKWixd20PAXN4e/Clipboard-Maquette?node-id=0%3A1&t=P5NEwOQEKW2xNLdr-1"
                         >
                             <p>Maquette d'un site web suivant le principe du desgin responsive, ce qui permet au site d'être autant accessible sur PC de bureau que smartphone.

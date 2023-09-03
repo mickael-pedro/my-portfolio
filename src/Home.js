@@ -32,7 +32,7 @@ function Home() {
                           Voir mon CV
                       </Button>
                   </Link>
-                  <Link to="/resume" className="align-self-center">
+                  <Link to="/projects" className="align-self-center">
                       <Button className="portfolio-btn fs-3">
                           Voir mes projets réalisés
                       </Button>

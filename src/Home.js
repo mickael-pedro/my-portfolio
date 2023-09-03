@@ -25,7 +25,7 @@ function Home() {
                       Bienvenue sur mon portfolio ! 
                   </p>
                   <p>
-                      Passioné d'informatique depuis mes 13 ans et de nature curieuse, je cherche toujours à renforcer mes connaissances et en à acquérir de nouvelles. 
+                      Passionné d'informatique depuis mes 13 ans et de nature curieuse, je cherche toujours à renforcer mes connaissances et en à acquérir de nouvelles. 
                   </p>
                   <Link to="/resume" className="my-5 align-self-center">
                       <Button className="portfolio-btn fs-3">

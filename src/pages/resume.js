@@ -13,8 +13,8 @@ function Education() {
           <div className='d-flex flex-column flex-md-row'>
             <div className='w-md-50 mb-4 mb-md-0 me-md-4'>
               <h3 className='mb-3'>Diplômes et formations</h3>
-              <ResumeItem date="2022 - 2023" title="Bachelor Développeur d'application">
-                <p><i>Studi, école en ligne</i></p>
+              <ResumeItem date="2022 - 2023" title="Bachelor Concepteur développeur de solutions digitales - Option C#">
+                <p><i>HETIC</i></p>
               </ResumeItem>
               <ResumeItem date="2018 - 2020" title="BTS Services Informatiques aux Organisations - option Réseau">
                 <p><i>Lycée René Descartes, 77420 Champs-sur-Marne</i></p>
